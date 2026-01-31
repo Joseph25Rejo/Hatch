@@ -1,0 +1,6 @@
+firestore_credentials.json
+.env
+node_modules
+.qoder
+/_pycache_
+*.md

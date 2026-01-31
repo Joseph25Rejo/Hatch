@@ -1,0 +1,10 @@
+flask
+werkzeug
+PyJWT
+gunicorn
+google-cloud-firestore
+firebase-admin
+requests
+numpy
+datasketch
+flask-cors
