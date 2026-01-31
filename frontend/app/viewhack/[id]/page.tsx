@@ -483,7 +483,7 @@ function ActionButton({ data }: { data: HackathonData }) {
 
       try {
         const response = await fetch(
-          'http://localhost:5000/getTeamDetails',
+          'https://thecodeworks.in/hatch/getTeamDetails',
           {
             method: 'POST',
             headers: {
@@ -520,7 +520,7 @@ function ActionButton({ data }: { data: HackathonData }) {
 
     try {
       const response = await fetch(
-        'http://localhost:5000/leaveTeam',
+        'https://thecodeworks.in/hatch/leaveTeam',
         {
           method: 'POST',
           headers: {
@@ -639,7 +639,7 @@ export default function HackathonPage() {
       try {
         const hackCode = params.id as string;
         const response = await fetch(
-          `http://localhost:5000/fetchhack?hackCode=${hackCode}`
+          `https://thecodeworks.in/hatch/fetchhack?hackCode=${hackCode}`
         );
         
         if (!response.ok) {

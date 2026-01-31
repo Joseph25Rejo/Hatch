@@ -179,7 +179,7 @@ function CreateEventFormContent() {
         throw new Error('No authentication token found. Please log in again.');
       }
 
-      const response = await fetch('http://localhost:5000/hack-create', {
+      const response = await fetch('https://thecodeworks.in/hatch/hack-create', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${authToken}`,

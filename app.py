@@ -24,7 +24,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": ["http://localhost:3000", "http://localhost:5000", "http://localhost:8000"]}})
+CORS(app, resources={r"/*": {"origins": ["http://localhost:3000", "https://thecodeworks.in/hatch", "http://localhost:8000"]}})
 
 # --- Config ---
 SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-here")

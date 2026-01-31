@@ -65,7 +65,7 @@ function SponsorShowcaseContent() {
   const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
 
   // Azure backend base URL
-  const baseURL = 'http://localhost:5000';
+  const baseURL = 'https://thecodeworks.in/hatch';
 
   useEffect(() => {
     const fetchShowcases = async () => {

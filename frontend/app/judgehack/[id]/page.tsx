@@ -11,7 +11,7 @@ const instrumentSans = Instrument_Sans({
 });
 import { useParams } from 'next/navigation';
 
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://thecodeworks.in/hatch";
 
 interface Organiser {
   email: string;

@@ -1356,6 +1356,6 @@ if __name__ == '__main__':
         print("Set GITHUB_TOKEN environment variable for better performance.")
     
     print("Starting Repository Plagiarism Checker...")
-    print("API endpoint: POST http://localhost:5000/githubrepocheck")
+    print("API endpoint: POST https://thecodeworks.in/hatch/githubrepocheck")
     
     app.run(debug=True, host='0.0.0.0', port=5000)

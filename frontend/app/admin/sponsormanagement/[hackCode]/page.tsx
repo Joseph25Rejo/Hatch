@@ -64,7 +64,7 @@ function AdminSponsorManagementContent() {
   });
 
   // Azure backend base URL
-  const baseURL = 'http://localhost:5000';
+  const baseURL = 'https://thecodeworks.in/hatch';
 
   useEffect(() => {
     fetchSponsors();

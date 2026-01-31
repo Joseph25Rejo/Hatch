@@ -174,7 +174,7 @@ function RunCheckPage() {
         }
 
         const response = await fetch(
-          'http://localhost:5000/check-plagiarism',
+          'https://thecodeworks.in/hatch/check-plagiarism',
           {
             method: 'POST',
             headers: {

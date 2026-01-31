@@ -17,10 +17,10 @@ def update_api_urls(environment='local'):
     
     if environment == 'local':
         old_url = 'https://hatchplatform-dcdphngyewcwcuc4.centralindia-01.azurewebsites.net'
-        new_url = 'http://localhost:5000'
+        new_url = 'https://thecodeworks.in/hatch'
         print("Switching to LOCAL development environment...")
     else:
-        old_url = 'http://localhost:5000'
+        old_url = 'https://thecodeworks.in/hatch'
         new_url = 'https://hatchplatform-dcdphngyewcwcuc4.centralindia-01.azurewebsites.net'
         print("Switching to PRODUCTION environment...")
     

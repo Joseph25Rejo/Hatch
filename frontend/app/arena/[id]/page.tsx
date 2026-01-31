@@ -105,7 +105,7 @@ function HackathonSubmissionContent() {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const baseURI = 'http://localhost:5000';
+  const baseURI = 'https://thecodeworks.in/hatch';
 
   useEffect(() => {
     fetchHackathonData();

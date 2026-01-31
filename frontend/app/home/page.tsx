@@ -447,7 +447,7 @@ function HomePage() {
     try {
       setLoading(true);
       const response = await fetch(
-        'http://localhost:5000/allHacks'
+        'https://thecodeworks.in/hatch/allHacks'
       );
       if (!response.ok) {
         throw new Error('Failed to fetch hackathons');

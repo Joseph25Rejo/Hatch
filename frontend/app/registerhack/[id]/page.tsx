@@ -155,7 +155,7 @@ const RegistrationPageContent = () => {
       try {
         const hackCode = params.id as string;
         const response = await fetch(
-          `http://localhost:5000/fetchhack?hackCode=${hackCode}`
+          `https://thecodeworks.in/hatch/fetchhack?hackCode=${hackCode}`
         );
         if (!response.ok) {
           throw new Error('Failed to fetch hackathon data');
@@ -194,7 +194,7 @@ const RegistrationPageContent = () => {
         throw new Error('No authentication token found. Please log in again.');
       }
 
-      const response = await fetch('http://localhost:5000/registerteam', {
+      const response = await fetch('https://thecodeworks.in/hatch/registerteam', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${authToken}`,

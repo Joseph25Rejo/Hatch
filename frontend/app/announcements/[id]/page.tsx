@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Navbar from '../../../components/navbar';
 
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://thecodeworks.in/hatch';
 
 interface Announcement {
   id: string;
